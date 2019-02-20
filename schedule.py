@@ -1,4 +1,3 @@
-
 def free_days(booked, holidays):
 	occupied = booked + holidays
 	free = []

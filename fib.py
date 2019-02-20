@@ -7,8 +7,9 @@ def fib(n):
     while(n > 0):
         n3 = n1 + n2
         print(n3)
-        n1 = n2
-        n2 = n3
+        #n1 = n2
+        #n2 = n3
+        n1,n2 = n2,n3
         n -=1
 
 def draw_line():

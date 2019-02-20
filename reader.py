@@ -9,11 +9,8 @@ def fetch_lines(filename, *n):
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
 	parser.add_argument('filename', type=str)
-	parser.add_argument('n', type=int)
-	parser.add_argument('m', type=int)
-	#parser.add_argument('--sum', dest='accumulate', action='store_const',
-	                   #const=sum, default=max,
-	                   #help='sum the integers (default: find the max)')
+	parser.add_argument('n', type=int, required=False)
+	parser.add_argument('m', type=int, required=False)
 
 	args = parser.parse_args()
 	filename = args.filename
