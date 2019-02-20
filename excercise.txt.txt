@@ -1,0 +1,10 @@
+john,python,ex01,100
+ben,shell,ex01,90
+carl,shell,ex02,90
+ben,shell,ex02,95
+john,python,ex02,90
+ben,python,ex01,80
+ben,shell,ex03,100
+carl,shell,ex03,80
+john,shell,ex01,90
+ben,python,ex02,75

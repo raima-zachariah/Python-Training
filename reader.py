@@ -1,7 +1,7 @@
 import sys
 import argparse
 
-def fetch_lines(filename, *n):
+def fetch_lines(filename):
 	with open(filename,"r") as FH:
 		data = FH.read()
 	print(data)
